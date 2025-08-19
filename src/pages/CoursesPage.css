@@ -1,0 +1,39 @@
+.courses-page {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.courses-page h2 {
+  font-size: 28px;
+  color: #003049;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 8px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: 1px solid #003049;
+  background: #fff;
+  color: #003049;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:disabled, .pagination button:hover {
+  background: #003049;
+  color: #fff;
+}

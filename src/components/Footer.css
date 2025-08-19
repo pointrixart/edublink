@@ -1,0 +1,177 @@
+.footer {
+  background: #f8fbfc;
+  padding: 40px 80px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-logo img {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.footer-logo .brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li:hover {
+  color: #0ca678;
+}
+
+.subscribe {
+  display: flex;
+  margin: 15px 0;
+}
+
+.subscribe input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.subscribe button {
+  background: #0ca678;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe button:hover {
+  background: #08916a;
+}
+
+.socials a {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #0ca678;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.footer-bottom .brand {
+  color: #0ca678;
+  font-weight: bold;
+}
+
+.footer-bottom .dev {
+  color: #08916a;
+  font-weight: bold;
+}
+
+.scroll-top {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+
+
+/* ---------------------- */
+/* ✅ RESPONSIVE STYLES */
+/* ---------------------- */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footer-logo {
+    justify-content: flex-start;
+  }
+
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe input {
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .subscribe button {
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .socials {
+    margin-top: 10px;
+  }
+}

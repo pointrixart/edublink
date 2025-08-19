@@ -1,0 +1,46 @@
+.instructor-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.instructor-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.instructor-card:hover {
+  transform: translateY(-5px);
+}
+
+.instructor-photo {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.instructor-name {
+  font-size: 1.2rem;
+  color: #003049;
+  margin: 8px 0 4px;
+}
+
+.instructor-role {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.instructor-snippet {
+  font-size: 0.9rem;
+  color: #666;
+}

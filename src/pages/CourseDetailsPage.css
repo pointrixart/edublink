@@ -1,0 +1,66 @@
+.course-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.details-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-info h1 {
+  font-size: 2rem;
+  color: #003049;
+}
+
+.full-description {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.price {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.old {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+
+.new {
+  font-weight: bold;
+  color: #f77f00;
+}
+
+.enroll-btn {
+  background-color: #003049;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.enroll-btn:hover {
+  background-color: #f77f00;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #003049;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}

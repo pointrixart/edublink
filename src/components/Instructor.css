@@ -1,0 +1,58 @@
+.instructors-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.instructors-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #003049;
+}
+
+.instructors-section h3{
+   color:#EE4A62;
+   font-size: 13px;
+   text-transform: uppercase;
+   font-weight: 600;
+   display: inline-block;
+}
+
+.instructor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.instructor-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.instructor-card:hover {
+  transform: translateY(-5px);
+}
+
+.instructor-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.instructor-card h4 {
+  font-size: 20px;
+  color: #003049;
+  margin-bottom: 5px;
+}
+
+.instructor-card p {
+  color: #555;
+  font-size: 14px;
+}

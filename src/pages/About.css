@@ -1,0 +1,72 @@
+.about-page {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-page h2 {
+  font-size: 32px;
+  color: #003049;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.about-text h3 {
+  color: #003049;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  margin-bottom: 10px;
+  color: #444;
+  font-weight: 500;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
